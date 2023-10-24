@@ -1,0 +1,251 @@
+.Menu-body{
+    width: 220px;
+    height: 90vh;
+    padding:0;
+    margin:0;
+    background: linear-gradient(rgba(104, 114, 126, 0.9), #555555);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ClickActive{
+    background-color: rgba(255, 255, 255, 0.3)!important;
+    color: rgba(255, 255, 255, 0.7);
+}
+.Menu-font{
+    width: 123px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 楷体 ;
+    font-size: 28px;
+    margin-left: 60px;
+    margin-top: 50px;
+    user-select: none;
+}
+.Menu-img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 48px;
+    margin-left: 31px;
+    background-image: url("./img/音乐.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.recommend{
+    width: 180px;
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 19px;
+    padding: 0;
+    border-radius: 10px;
+    display:block;
+    text-decoration:none
+
+}
+.recommend-img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 18px;
+    background-image: url("img/播放.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.recommend-font{
+    color:rgba(255, 255, 255, 0.7);;
+    font-size: 16px;
+    font-family:新宋体;
+    padding: 0;
+    margin-left: -3px;
+    line-height: 40px;
+    user-select: none;
+}
+.recommend:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.found{
+    width: 180px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 19px;
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration:none
+}
+.found-img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 18px;
+    background-image: url("img/耳机.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.found-font{
+    color:rgba(255, 255, 255, 0.7);;
+    font-size: 16px;
+    font-family: 新宋体;
+    padding: 0;
+    margin-left: -3px;
+    line-height: 40px;
+    user-select: none;
+}
+.found:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.My-Music{
+    width: 220px;
+    height: 400px;
+    margin-top: 60px;
+}
+.My-Music-font{
+    color: rgb(236, 232, 232,0.7);;
+    font-size: 13px;
+    font-family: 新宋体;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 34px;
+    user-select: none;
+}
+.My-like{
+    width: 180px;
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 19px;
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration:none
+}
+.My-like-img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 18px;
+    background-image: url("./img/喜欢.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.My-like-font{
+    color:rgba(255, 255, 255, 0.7);;
+    font-size: 16px;
+    font-family: 新宋体;
+    padding: 0;
+    margin-left: -3px;
+    line-height: 40px;
+    user-select: none;
+}
+.My-like:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.My-collection{
+    width: 180px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 19px;
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration:none
+}
+.My-collection-img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 18px;
+    background-image: url("./img/收藏.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.My-collection-font{
+    color:rgba(255, 255, 255, 0.7);;
+    font-size: 16px;
+    font-family: 新宋体;
+    padding: 0;
+    margin-left: -3px;
+    line-height: 40px;
+    user-select: none;
+}
+.My-collection:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.History-plays{
+    width: 180px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 19px;
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    text-decoration:none
+}
+.History-plays-img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 18px;
+    background-image: url("./img/历史.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+.History-plays-font{
+    color:rgba(255, 255, 255, 0.7);;
+    font-size: 16px;
+    font-family: 新宋体;
+    padding: 0;
+    margin-left: 0px;
+    line-height: 40px;
+    user-select: none;
+}
+.History-plays:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.My-playlists{
+    width: 190px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 19px;
+    padding: 0;
+}
+.My-playlists-font{
+    color: rgb(236, 232, 232,0.7);;
+    font-size: 14px;
+    font-family: 新宋体;
+    line-height: 20px;
+    padding: 0;
+    margin-left: 20px;
+    user-select: none;
+}
+.My-playlists-click{
+    float: right;
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.My-playlists-click:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}

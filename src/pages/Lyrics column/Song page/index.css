@@ -1,0 +1,38 @@
+.Song-Page {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    height: 84vh;
+    width: 100%;
+    justify-content: center;
+    overflow-y: scroll;
+    position: absolute;
+}
+.RecommendedPlaylistsContentItem{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    text-decoration:none
+}
+.RecommendedPlaylistsContentItem:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.RecommendedPlaylistsContentItemImg{
+    width: 200px;
+    height: 200px;
+}
+.RecommendedPlaylistsContentItemTitle{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+.RecommendedPlaylistsPictures{
+    width: 200px;
+    height: 200px;
+}

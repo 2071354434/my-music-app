@@ -1,0 +1,62 @@
+.Login-Page {
+    width: 35%;
+    height: 50vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20vh;
+    margin-left: 60vh;
+    padding: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+.hiddenClose {
+    opacity: 0;
+    visibility: visible;
+}
+.hiddenOpen {
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.Login-PageFont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.QR-code {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin-left: 33%;
+    text-align: center;
+    line-height: 300px;
+}
+
+.Close-Page {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+
+.Close {
+    background-image: url("./img/关闭.svg");
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+}
+
+.Close:hover {
+    background-color: rgba(225, 32, 32, 0.8);
+    cursor: pointer;
+}
